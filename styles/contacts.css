@@ -1,0 +1,21 @@
+@import "/style.css";
+
+.contacts-list {
+  font-size: 1rem;
+}
+
+.contacts-list > li::marker {
+  content: "";
+}
+
+.contact-span {
+  font-weight: bold;
+}
+
+.contact-anchor {
+  display: block;
+}
+
+.contact-anchor:hover {
+  transform: scale(0.975) !important;
+}

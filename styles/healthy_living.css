@@ -1,0 +1,38 @@
+.mov-btn {
+  width: 25vw;
+  display: block;
+  padding: 1.125vw;
+  border: 0.125vw solid black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.mov-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#visitor-assistance-email {
+  font-weight: bold;
+}
+
+#visitor-assistance-email:hover {
+  text-decoration: underline;
+}
+
+#calc-form input:not([type="radio"]) {
+  display: block;
+}
+
+label:not(.radio-label),
+.radio-group-label {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .mov-btn {
+    width: 50vw;
+    font-size: 1rem;
+  }
+}

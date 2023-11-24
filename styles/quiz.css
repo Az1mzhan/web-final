@@ -1,0 +1,27 @@
+.quiz-question {
+  font-weight: bold;
+}
+
+.submit-btn {
+  width: 25vw;
+  display: block;
+  padding: 1.125vw;
+  border: 0.125vw solid black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#submit-quiz {
+  min-height: 0;
+}
+
+#modal-points {
+  font-weight: bold;
+  text-align: center;
+}

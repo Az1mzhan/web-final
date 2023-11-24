@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/media/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/media/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/media/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/media/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/media/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/media/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/media/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/media/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/media/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/media/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/favicon/favicon-16x16.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="container-fluid px-0" id="app">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 left-0 p-0"
+      >
+        <div class="container-fluid px-0 d-flex align-items-center">
+          <a class="navbar-brand py-0 me-0" href="index.html">
+            <img src="media/hamburger.png" id="site-icon" />
+          </a>
+          <button
+            class="navbar-toggler me-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="impact.html"
+                >
+                  Impact of Fast Food
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="healthy_living.html"
+                >
+                  Healthy Living
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link active" aria-current="page" href="quiz.html">
+                  Test yourself
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacts.html"
+                >
+                  Contacts
+                </a>
+              </li>
+              <li class="nav-item">
+                <button id="sound-btn" class="btn">
+                  <i class="fa-solid fa-music fa-xl"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="container-fluid">
+        <section class="row mx-0">
+          <div class="col-12">
+            <article
+              id="contacts"
+              class="d-flex flex-column align-items-center pb-5"
+            >
+              <h2 class="article-header mx-3 my-5">Contacts</h2>
+              <div class="article-text mx-3">
+                <div class="accordion" id="contacts-accordion">
+                  <div class="accordion-item" id="phone-numbers">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#contact-collapse-1"
+                        aria-expanded="true"
+                        aria-controls="contact-collapse-1"
+                      >
+                        Phone Numbers
+                      </button>
+                    </h2>
+                    <div
+                      id="contact-collapse-1"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#contacts-accordion"
+                    >
+                      <div class="accordion-body">
+                        <ul class="contacts-list ps-0">
+                          <li>
+                            <span class="contact-span"
+                              >Visitor Assistance:</span
+                            >
+                            <a class="contact-anchor" href="tel:+15551234567">
+                              +1 (555) 123-4567
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">General Inquiries:</span>
+                            <a class="contact-anchor" href="tel:+15559876543">
+                              +1 (555) 987-6543
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">Media Relations:</span>
+                            <a class="contact-anchor" href="tel:+15558765432">
+                              +1 (555) 876-5432
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" id="emails">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#contact-collapse-2"
+                        aria-expanded="true"
+                        aria-controls="contact-collapse-2"
+                      >
+                        Emails
+                      </button>
+                    </h2>
+                    <div
+                      id="contact-collapse-2"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#contacts-accordion"
+                    >
+                      <div class="accordion-body">
+                        <ul class="contacts-list ps-0">
+                          <li>
+                            <span class="contact-span"
+                              >Visitor Assistance:</span
+                            >
+                            <a
+                              class="contact-anchor"
+                              href="mailto:assistance@fastfoodhealth.com"
+                            >
+                              assistance@fastfoodhealth.com
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">General Inquiries:</span>
+                            <a
+                              class="contact-anchor"
+                              href="mailto:info@fastfoodhealth.com"
+                            >
+                              info@fastfoodhealth.com
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">Media Relations:</span>
+                            <a
+                              class="contact-anchor"
+                              href="mailto:media@fastfoodhealth.com"
+                            >
+                              media@fastfoodhealth.com
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" id="faxes">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#contact-collapse-3"
+                        aria-expanded="true"
+                        aria-controls="contact-collapse-3"
+                      >
+                        Faxes
+                      </button>
+                    </h2>
+                    <div
+                      id="contact-collapse-3"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#contacts-accordion"
+                    >
+                      <div class="accordion-body">
+                        <ul class="contacts-list ps-0">
+                          <li>
+                            <span class="contact-span"
+                              >Visitor Assistance:</span
+                            >
+                            <a class="contact-anchor" href="fax:+1.555.1112222">
+                              +1 (555) 111-2222
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">General Inquiries:</span>
+                            <a class="contact-anchor" href="fax:+1.555.3334444">
+                              +1 (555) 333-4444
+                            </a>
+                          </li>
+                          <li class="mt-2">
+                            <span class="contact-span">Media Relations:</span>
+                            <a
+                              class="contact-anchor"
+                              href="mailto:media@fastfoodhealth.com"
+                            >
+                              media@fastfoodhealth.com
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="d-flex justify-content-around py-5">
+        <div class="d-flex flex-column">
+          <h6>Abous Us</h6>
+          <a class="contact-anchor" href="#"> Our Story </a>
+          <a class="contact-anchor mt-1" href="#"> Careers </a>
+          <a class="contact-anchor mt-1" href="#"> Sitemap </a>
+          <a class="contact-anchor mt-1" href="#"> Join Us </a>
+        </div>
+        <div class="d-flex flex-column">
+          <h6>Useful Info</h6>
+          <a class="contact-anchor" href="#"> Help Center </a>
+          <a class="contact-anchor mt-1" href="#"> FAQ </a>
+          <a class="contact-anchor mt-1" href="#"> Blogs and articles </a>
+          <a class="contact-anchor mt-1" href="#"> Terms and Conditions </a>
+        </div>
+        <div class="d-flex flex-column">
+          <h6>Company</h6>
+          <a class="contact-anchor" href="#"> Terms of Use </a>
+          <a class="contact-anchor mt-1" href="#"> New Privacy Policy </a>
+          <a class="contact-anchor mt-1" href="#"> Your Privacy Choices </a>
+          <a class="contact-anchor mt-1" href="#"> Accessibility </a>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

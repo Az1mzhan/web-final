@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/media/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/media/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/media/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/media/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/media/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/media/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/media/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/media/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/media/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/media/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/favicon/favicon-16x16.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/quiz.css" />
+    <title>Test Yourself</title>
+  </head>
+  <body>
+    <div class="container-fluid px-0" id="app">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 left-0 p-0"
+      >
+        <div class="container-fluid px-0 d-flex align-items-center">
+          <a class="navbar-brand py-0 me-0" href="index.html">
+            <img src="media/hamburger.png" id="site-icon" />
+          </a>
+          <button
+            class="navbar-toggler me-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="impact.html"
+                >
+                  Impact of Fast Food
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="healthy_living.html"
+                >
+                  Healthy Living
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link active" aria-current="page" href="quiz.html">
+                  Test yourself
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacts.html"
+                >
+                  Contacts
+                </a>
+              </li>
+              <li class="nav-item">
+                <button id="sound-btn" class="btn">
+                  <i class="fa-solid fa-music fa-xl"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="container-fluid">
+        <section class="row mx-0">
+          <div class="col-12">
+            <article
+              id="quiz-intro"
+              class="d-flex flex-column align-items-center pb-5"
+            >
+              <h2 class="article-header mx-3 my-5">Test</h2>
+              <p class="article-text mx-3">
+                After you've checked all materials on our website, you can
+                assess by skills via the quiz below. If you take 80% or above,
+                the assessment can be considered successful.
+              </p>
+            </article>
+            <article id="q1" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q1</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  What is a daily calorie intake of a statistically average man?
+                </p>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="2000cal"
+                    type="radio"
+                    name="q1"
+                    value="2000"
+                  />
+                  <label class="ms-3" for="2000cal">2000 cal</label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="2500cal"
+                    type="radio"
+                    name="q1"
+                    value="2500"
+                  />
+                  <label class="ms-3" for="2500cal">2500 cal</label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="3000cal"
+                    type="radio"
+                    name="q1"
+                    value="3000"
+                  />
+                  <label class="ms-3" for="3000cal">3000 cal</label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="none-q1"
+                    type="radio"
+                    name="q1"
+                    value="none"
+                  />
+                  <label class="ms-3" for="none-q1">None of the above</label>
+                </div>
+              </div>
+            </article>
+            <article id="q2" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q2</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  Which eminent aphorism linked with food did Socrates said?
+                </p>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="socrates"
+                    type="radio"
+                    name="q2"
+                    value="socrates"
+                  />
+                  <label class="ms-3" for="socrates">
+                    “You are what you eat”
+                  </label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="laduke"
+                    type="radio"
+                    name="q2"
+                    value="laduke"
+                  />
+                  <label class="ms-3" for="laduke">
+                    “Food for us comes from our relatives, whether they have
+                    wings or fins or roots. That is how we consider food. Food
+                    has a culture. It has a history. It has a story. It has
+                    relationships.”
+                  </label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="laurentiis"
+                    type="radio"
+                    name="q1"
+                    value="laurentiis"
+                  />
+                  <label class="ms-3" for="laurentiis">
+                    “Food brings people together on many different levels. It’s
+                    nourishment of the soul and body; it’s truly love.”
+                  </label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="foer"
+                    type="radio"
+                    name="q1"
+                    value="foer"
+                  />
+                  <label class="ms-3" for="foer">
+                    “Food is not rational. Food is culture, habit, craving and
+                    identity.”
+                  </label>
+                </div>
+              </div>
+            </article>
+            <article id="q3" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q3</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  Is eating large amounts of carbohydrates frequently can lead
+                  to repeated spikes in blood sugar?
+                </p>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="true-q3"
+                    type="radio"
+                    name="q3"
+                    value="true"
+                  />
+                  <label class="ms-3" for="true-q3"> True </label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="false-q3"
+                    type="radio"
+                    name="q3"
+                    value="false"
+                  />
+                  <label class="ms-3" for="false-q3"> False </label>
+                </div>
+              </div>
+            </article>
+            <article id="q4" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q4</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  Do insulin spikes lead to the prevention of insulin
+                  resistance, type 2 diabetes, and weight gain?
+                </p>
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="true-q4"
+                    type="radio"
+                    name="q4"
+                    value="true"
+                  />
+                  <label class="ms-3" for="true-q4"> True </label>
+                </div>
+
+                <div class="d-flex mb-2">
+                  <input
+                    class="form-check-input"
+                    id="false-q4"
+                    type="radio"
+                    name="q4"
+                    value="false"
+                  />
+                  <label class="ms-3" for="false-q4"> False </label>
+                </div>
+              </div>
+            </article>
+            <article id="q5" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q5</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  Finish the sentence. When the digestive system breaks it down,
+                  the carbohydrates enter the bloodstream as ___
+                </p>
+                <div class="d-flex mb-2">
+                  <label for="res-q5"> Enter one word in lowercase </label>
+                  <input class="ms-5" id="res-q5" type="text" />
+                </div>
+              </div>
+            </article>
+            <article id="q6" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q6</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  Which chemical in high amounts can lead to reproductive
+                  problems, including birth defects?
+                </p>
+                <div class="d-flex mb-2">
+                  <label for="res-q5">
+                    Enter one word in plural form and lowercase
+                  </label>
+                  <input class="ms-5" id="res-q6" type="text" />
+                </div>
+              </div>
+            </article>
+            <article id="q7" class="d-flex flex-column align-items-center pb-5">
+              <h2 class="article-header mx-3 my-5">Q7</h2>
+              <div class="article-text mx-3">
+                <p class="quiz-question">
+                  According to the
+                  <a
+                    class="article-anchor"
+                    href="https://www.sciencedirect.com/science/article/abs/pii/S0195666317302659?via%3Dihub"
+                    >study</a
+                  >, how many percent of people don't think about the amount of
+                  sodium they consume when eating at fast food restaurants?
+                </p>
+                <div class="d-flex mb-2">
+                  <label for="res-q5"> Pick percentage </label>
+                  <input
+                    class="ms-5"
+                    id="res-q7"
+                    type="number"
+                    value="0"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+              </div>
+            </article>
+            <article
+              id="submit-quiz"
+              class="d-flex flex-column align-items-center pb-5"
+            >
+              <button
+                id="submit-quiz-btn"
+                class="btn submit-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#res-modal"
+              >
+                Submit
+              </button>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="d-flex justify-content-around py-5">
+        <div class="d-flex flex-column">
+          <h6>Abous Us</h6>
+          <a class="contact-anchor" href="#"> Our Story </a>
+          <a class="contact-anchor mt-1" href="#"> Careers </a>
+          <a class="contact-anchor mt-1" href="#"> Sitemap </a>
+          <a class="contact-anchor mt-1" href="#"> Join Us </a>
+        </div>
+        <div class="d-flex flex-column">
+          <h6>Useful Info</h6>
+          <a class="contact-anchor" href="#"> Help Center </a>
+          <a class="contact-anchor mt-1" href="#"> FAQ </a>
+          <a class="contact-anchor mt-1" href="#"> Blogs and articles </a>
+          <a class="contact-anchor mt-1" href="#"> Terms and Conditions </a>
+        </div>
+        <div class="d-flex flex-column">
+          <h6>Company</h6>
+          <a class="contact-anchor" href="#"> Terms of Use </a>
+          <a class="contact-anchor mt-1" href="#"> New Privacy Policy </a>
+          <a class="contact-anchor mt-1" href="#"> Your Privacy Choices </a>
+          <a class="contact-anchor mt-1" href="#"> Accessibility </a>
+        </div>
+      </footer>
+
+      <div
+        class="modal fade"
+        id="res-modal"
+        tabindex="-1"
+        aria-labelledby="res-modal-label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="res-modal-label">Your result</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body d-flex flex-column align-items-center py-5">
+              <p id="quiz-points-taken"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/index.js"></script>
+    <script type="module" src="scripts/quiz.js"></script>
+  </body>
+</html>

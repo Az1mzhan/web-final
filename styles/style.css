@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Alternate Gothic";
+  src: url("../fonts/alternate_gothic.otf") format("opentype");
+}
+
+:root {
+  --google-black: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+#sound-btn {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s !important;
+}
+
+a:hover,
+#sound-btn:hover {
+  opacity: 0.75 !important;
+  transform: scale(0.875) !important;
+}
+
+article {
+  min-height: 85vh;
+}
+
+footer {
+  border-top: 0.25vh black solid;
+}
+
+footer h6 {
+  font-weight: bold;
+}
+
+.navbar,
+footer {
+  background-color: white !important;
+}
+
+.navbar {
+  border-bottom: 0.25vh black solid;
+  z-index: 4;
+  animation: navbar-toggle 0.5s linear;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.scroll-article-text {
+  animation: article-text-slide 1.5s;
+}
+
+.article-header {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+}
+
+.article-text {
+  max-width: 87.5vw;
+  font-size: 1.5rem;
+}
+
+.article-anchor {
+  font-weight: bold;
+}
+
+.article-anchor:hover {
+  text-decoration: underline;
+}
+
+.article-text > p {
+  max-width: 100%;
+}
+
+.card {
+  width: 27.5vw;
+  margin-bottom: 10vh;
+  border: none;
+  border-radius: 0;
+}
+
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-img-top {
+  background-color: #4caf50;
+  border-radius: 0;
+}
+
+.form-check-input {
+  border-color: black;
+}
+
+.accordion-item {
+  width: 50vw;
+  border: 0.125vw solid var(--google-black);
+}
+
+.accordion-body > table {
+  font-size: 1.5rem;
+}
+
+.accordion-button {
+  background-color: var(--google-black) !important;
+  color: white !important;
+}
+
+.accordion-button::after {
+  background-image: url("../media/fa-svg/angle-down-solid.svg") !important;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.carousel-indicators > button {
+  background-color: black !important;
+}
+
+#site-icon {
+  width: 5vw;
+  height: 5vw;
+}
+
+@keyframes navbar-toggle {
+  from {
+    transform: translateY(-20vw);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes article-text-slide {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  footer h6,
+  footer a {
+    font-size: 0.75rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 5vw;
+  }
+
+  .article-header {
+    font-size: 2rem;
+  }
+
+  .article-text {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+
+  .accordion,
+  .accordion-item {
+    width: 100%;
+  }
+
+  .table tr,
+  .table td {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  #site-icon {
+    width: 20vw;
+    height: 20vw;
+  }
+}
